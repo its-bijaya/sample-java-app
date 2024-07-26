@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/its-bijaya/registration-app.git'
+                git branch: 'main', url: 'https://github.com/its-bijaya/sample-java-app.git'
             }
         }
         stage('Run Unit Tests') {
@@ -64,4 +64,3 @@ pipeline {
         }
     }
 }
-
